@@ -24,7 +24,7 @@
         scanf("%s", &estado1);// Espaço antes de %c para consumir espaços em branco pendentes
 
         printf("Digite o nome da cidade do estado: \n");
-        scanf(" %s", &cid1);
+        scanf("%s", &cid1);
 
         printf("Digite um número de 01 à 04 com o mesmo formato deste título, para o código da carta: \n");
         scanf("%d", &cod1);
