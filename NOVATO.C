@@ -21,10 +21,10 @@
         printf("Agora vamos cadastrar a CARTA 1: \n\n"); //comando de exibição na tela com "\n" para pular linha
 
         printf("Digite uma letra entre A à H do alfabeto, representando o estado da primeira carta: \n");
-        scanf("%s", &estado1);// Espaço antes de %c para consumir espaços em branco pendentes
+        scanf(" %c", &estado1);// Espaço antes de %c para consumir espaços em branco pendentes
 
         printf("Digite o nome da cidade do estado: \n");
-        scanf("%s", &cid1);
+        scanf(" %c", &cid1);
 
         printf("Digite um número de 01 à 04 com o mesmo formato deste título, para o código da carta: \n");
         scanf("%d", &cod1);
@@ -47,10 +47,10 @@
         printf("Agora vamos cadastrar a CARTA 2: \n"); //comando de exibição na tela com "\n" para pular linha
 
         printf("Digite uma letra entre A à H do alfabeto, representando o estado da primeira carta: \n");
-        scanf(" %s", &estado2); // Espaço antes de %c para consumir espaços em branco pendentes
+        scanf(" %c", &estado2); // Espaço antes de %c para consumir espaços em branco pendentes
 
         printf("Digite o nome da cidade do estado: \n");
-        scanf(" %s", &cid2);
+        scanf(" %c", &cid2);
 
         printf("Digite um número de 01 à 04 com o mesmo formato deste título, para o código da carta: \n");
         scanf("%d", &cod2);
@@ -68,9 +68,9 @@
         scanf("%d", &turist2);
 
     printf("A CARTA 1 CADASTRADA CONTÉM OS SEGUINTES DADOS: \n\n");
-        printf("ESTADO: %s \n", estado1);
-        printf("CÓDIGO: %d %s \n", cod1, estado1);
-        printf("CIDADE: %s \n", cid1);
+        printf("ESTADO: %c \n", estado1);
+        printf("CÓDIGO: %d %c \n", cod1, estado1);
+        printf("CIDADE: %c \n", cid1);
         printf("POPULAÇÃO: %d \n", popula1);
         printf("ÁREA: %f \n", km1);
         printf("PIB: %f \n", pib1);
@@ -78,9 +78,9 @@
         printf(" ............................................\n\n\n");
 
     printf("A CARTA 2 CADASTRADA CONTÉM OS SEGUINTES DADOS: \n\n");
-        printf("ESTADO: %s \n", estado2);
-        printf("CÓDIGO: %d %s \n", cod2, estado2);
-        printf("CIDADE: %s \n", cid2);
+        printf("ESTADO: %c \n", estado2);
+        printf("CÓDIGO: %d %c \n", cod2, estado2);
+        printf("CIDADE: %c \n", cid2);
         printf("POPULAÇÃO: %d \n", popula2);
         printf("ÁREA: %f \n", km2);
         printf("PIB: %f \n", pib2);
